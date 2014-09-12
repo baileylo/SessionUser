@@ -1,0 +1,23 @@
+{
+    "name": "baileylo/session-user",
+    "description": "Authenticated User injection for auto resolving IOCs",
+    "require-dev": {
+        "phpunit/phpunit": "4.2.*",
+        "illuminate/support": "v4.2.8 "
+    },
+    "autoload": {
+        "psr-4": {
+            "Portico\\SessionUser\\": "src"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Logan Bailey",
+            "email": "logan@logansbailey.com"
+        }
+    ],
+    "version": "1.0.0",
+    "minimum-stability": "stable",
+    "require": {}
+}
